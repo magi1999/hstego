@@ -522,6 +522,7 @@ class J_UNIWARD:
 
         # Real capacity, without headers
         capacity = 0
+        print(MAX_PAYLOAD)
         for channel in range(len(jpg["coef_arrays"])):
             nz_coeff = np.count_nonzero(jpg["coef_arrays"][channel])
             capacity += int((nz_coeff*MAX_PAYLOAD)/8)
