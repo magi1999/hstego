@@ -19,7 +19,7 @@ from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 
 SPATIAL_EXT = ["png", "pgm", "tif"]
-MAX_PAYLOAD=0.05
+MAX_PAYLOAD=0.3
 INF = 2**31-1
 
 
